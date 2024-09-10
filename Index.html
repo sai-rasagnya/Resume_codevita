@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sticky Navigation Bar -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <h1>About Me</h1>
+        <p>Hi, I'm a Frontend Developer skilled in HTML5, CSS, JavaScript, Manual Testing, and AWS. I am passionate about creating dynamic and responsive websites.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h1>Projects</h1>
+        <ul>
+            <li><strong>Hairshare:</strong> A platform for scheduling hair donation appointments for cancer patients.</li>
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h1>Skills</h1>
+        <div class="skill">
+            <h3>HTML5</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h3>CSS</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 85%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h3>JavaScript</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 80%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h3>Manual Testing</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 75%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h3>AWS</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-fixed">
+        <h1>Contact</h1>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
